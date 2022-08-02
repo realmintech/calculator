@@ -1,9 +1,10 @@
-
 function getclear(){
-    document.getElementById('userinput').value =' '
+    let input = document.getElementById('userinput');
+    input.value = input.value.substring(0,input.value.length -1);
 }
+
 function getplusminus(){
-    document.getElementById('userinput').value ='+/-'
+    document.getElementById('userinput').value =' '
 }
 function getpercent(){
     document.getElementById('userinput').value +='%'
@@ -18,6 +19,7 @@ function geteight(){
     document.getElementById('userinput').value +='8'
 }
 function getnine(){
+    
     document.getElementById('userinput').value +='9'
 }
 function gettimes(){
@@ -56,8 +58,7 @@ function getpoint(){
 function getEqual(){
     document.getElementById('userinput').value =eval(document.getElementById('userinput').value)
 }
-
-// function getOff(){
-//     document.getElementById('userinput').value =disabled=true(document.getElementById('userinput').value)
-// }
+function getOff(){
+    document.getElementById('userinput').value =disabled=true(document.getElementById('userinput').value)
+}
 

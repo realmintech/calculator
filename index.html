@@ -11,10 +11,10 @@
 <body>
     <div class="container  mt-5">
         <div class="row form-control bg-dark"  style="max-width:400px;">
-            <input type="text" class="value my-3 mx-3" id="userinput" style="width: 320px; height:70px">
-            <div class="col-12 btn-group mb-3 mx-1">
+            <input type="text" class="value my-3 mx-3" id="userinput" style="width: 320px; height:70px" placeholder="0">
+            <div class="col-12 btn-group mb-3 mx-1">  
+                <button class="button rounded-pill" onclick="getplusminus()" style=" width: 80px; height: 80px; font-size: 30px;background-color: grey;" >C</button>
                 <button class="button rounded-pill" onclick="getclear()" style=" width: 80px; height: 80px; font-size: 30px; background-color: grey;">AC</button>
-                <button class="button rounded-pill" onclick="getplusminus()" style=" width: 80px; height: 80px; font-size: 30px;background-color: grey;" >+/-</button>
                 <button class="button rounded-pill" onclick="getpercent()" style=" width: 80px; height: 80px; font-size: 30px;background-color: grey;" >%</button>
                 <button class="button rounded-pill bg-warning" onclick="getdivide()" style=" width: 80px; height: 80px; font-size: 30px;" >/</button>
             </div>
@@ -39,7 +39,6 @@
             <div class="col btn-group mb-3 mx-3" style="margin-bottom:20px;">
                 <button class="button rounded-pill" id="big" onclick="getzero()" style=" width: 170px; height: 80px; font-size: 30px;" >0</button>
                 <button class="button rounded-pill" onclick="getpoint()" style=" width: 80px; height: 80px; font-size: 30px;" >.</button>
-                <!-- <button class="button rounded-pill" onclick="getOff()" style=" width: 80px; height: 80px; font-size: 30px;" >off</button> -->
                 <button class="button rounded-pill bg-warning" onclick="getEqual()" style=" width: 80px; height: 80px; font-size: 30px;" >=</button>
             </div>
         </div>
